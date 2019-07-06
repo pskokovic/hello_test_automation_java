@@ -7,7 +7,6 @@ package com.qualityhouse.course.hello;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -21,13 +20,13 @@ public class HelloTestAutomationJava {
 
         WebDriver driver = new ChromeDriver();
 
-        driver.get("http://www.acme.qualityhouse.bg/build1/index.php?page=login");
+        driver.get("https://acme.qualityhouse.com/build1/index.php?page=login");
 
-        String pageTitle = driver.findElement(By.cssSelector("#main-big-col > h3")).getText();
+        String pageTitle = driver.getTitle();
 
         driver.close();
 
-        Assert.assertEquals("Page is not Login!", "Login", pageTitle);
+        Assert.assertEquals("Page is not Home!", "ACME ECOMM | Login", pageTitle);
 
         System.out.println("\nEnvironment is ready for test automation course!");
     }
