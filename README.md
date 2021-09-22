@@ -1,3 +1,4 @@
-# hello_test_automation_java
+# Hello Automation in Testing
+### Java Programming Language
 
-This project is used to test environment setup for test automation course.
+This project is used to test the environment setup for test automation course.
