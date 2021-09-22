@@ -1,6 +1,6 @@
 /*
-  Author: Quality House
-  Date: 19.09.2017.
+  Author: Predrag Skokovic, Quality House
+  Date: 22.09.2021.
 */
 
 package com.qualityhouse.course.hello;
