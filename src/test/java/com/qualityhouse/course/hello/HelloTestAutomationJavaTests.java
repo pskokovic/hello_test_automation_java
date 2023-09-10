@@ -23,11 +23,11 @@ public class HelloTestAutomationJavaTests {
 
         String pageTitle = driver.getTitle();
 
-        driver.close();
+        driver.quit();
 
         Assert.assertEquals(pageTitle, "ACME ECOMM | Login", "This is not Login page!");
 
-        System.out.println("\nThe test environment is ready for test automation course!");
+        System.out.println("\nThe test environment is ready for the test automation course!");
     }
 
 }
