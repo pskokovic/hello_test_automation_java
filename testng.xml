@@ -2,7 +2,7 @@
 <suite name="Hello Test Suite">
     <test name="Hello Test">
         <classes>
-            <class name="com.qualityhouse.course.hello.HelloTestAutomationJavaTests" />
+            <class name="com.qualityhouse.course.hello.TestAutomationInJava" />
         </classes>
     </test>
 </suite>

@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class HelloTestAutomationJavaTests {
+public class TestAutomationInJava {
 
     @Test
     public void hello_ecomm_site() {
